@@ -1,0 +1,6 @@
+{
+  "name": "Aurelle",
+  "description": "Curated for the art of living. A premium luxury lifestyle e-commerce store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
