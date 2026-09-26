@@ -254,18 +254,5 @@ Aurelle is pre-configured for Render with an included `render.yaml` Blueprint or
 
 ---
 
-### 3. Deploying on Vercel
 
-Aurelle is pre-configured with `vercel.json` and a serverless API handler (`/api/index.ts`):
-
-1. Go to [Vercel Dashboard](https://vercel.com/new).
-2. Click **Add New...** $\to$ **Project**, then import your GitHub repository.
-3. **Framework Preset**: Vite (detected automatically).
-4. **Build Command**: `npm run build`
-5. **Output Directory**: `dist`
-6. Add Environment Variables in Project Settings:
-   - `JWT_SECRET`: *(A secure random string)*
-   - `ADMIN_EMAIL`: `admin@aurelle.com`
-   - `ADMIN_PASSWORD`: `AdminAurelle123!`
-7. Click **Deploy**. Vercel will build the frontend assets to `dist` and route `/api/*` to the serverless function.
 
