@@ -1,4 +1,12 @@
-# Aurelle — Curated for the Art of Living
+# Aurelle — E-Commerce Web Application
+
+> Curated for the art of living.
+
+### 🌐 Live Demo
+[View Aurelle Live](https://aurelle-luxury-store.onrender.com)
+
+### 💻 GitHub Repository
+[View Source Code](https://github.com/atchayap01/aurelle-luxury-store)
 
 Aurelle is a full-stack, quiet-luxury lifestyle e-commerce web application inspired by high-end design houses, architectural proportion, and master craftsmanship. Built with a unified design system, secure JWT authentication, and a persistent REST API backend.
 
