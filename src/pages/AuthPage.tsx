@@ -90,37 +90,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({
               Access your personal archival selections, tracked consignments, bespoke address books, and curator privileges.
             </p>
 
-            {/* Demo Quickfill pills */}
-            <div className="pt-4 border-t border-[#D6C2A5]/20 space-y-2">
-              <span className="text-[10px] uppercase tracking-widest text-[#D6C2A5] font-semibold block">
-                Instant Demo Access:
-              </span>
-              <div className="flex flex-col gap-2">
-                <button
-                  type="button"
-                  onClick={fillAdmin}
-                  className="w-full text-left px-3 py-2 bg-white/10 hover:bg-white/20 border border-white/20 text-xs transition-colors flex items-center justify-between"
-                >
-                  <span className="flex items-center gap-2">
-                    <Shield className="w-3.5 h-3.5 text-[#D6C2A5]" />
-                    <span>Curator / Admin Demo (admin@aurelle.com)</span>
-                  </span>
-                  <span className="text-[10px] text-[#D6C2A5] uppercase">Select</span>
-                </button>
-
-                <button
-                  type="button"
-                  onClick={fillCustomer}
-                  className="w-full text-left px-3 py-2 bg-white/10 hover:bg-white/20 border border-white/20 text-xs transition-colors flex items-center justify-between"
-                >
-                  <span className="flex items-center gap-2">
-                    <User className="w-3.5 h-3.5 text-[#D6C2A5]" />
-                    <span>Collector Demo (customer@aurelle.com)</span>
-                  </span>
-                  <span className="text-[10px] text-[#D6C2A5] uppercase">Select</span>
-                </button>
-              </div>
-            </div>
+          
           </div>
         </div>
 
